@@ -27,24 +27,25 @@
 
 #login-form input {
     border: 0;
+    outline: 0;
     display: block;
     width: 100%;
     margin: 15px 0;
     height: 2rem;
-    outline: 0;
     font-size: 1.2rem;
+}
+
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
     color: rgba(0,0,0,0.4)
 }
 
-#login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-#login-form input:not([type="submit"]):focus {
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+#login-form input:focus {
+    border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
