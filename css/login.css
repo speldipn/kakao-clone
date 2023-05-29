@@ -1,27 +1,5 @@
-@import "color.css";
 
-#body {
-    background-color: white;
-    font-size: 15px;
-    padding: 0 16px;
-}
-
-.title {
-    margin: 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title__main {
-    font-size: 1.5rem;
-}
-
-.title__sub {
-    font-size: 1.2rem;
-    color: rgba(0,0,0,0.4);
-    text-align: center;
-}
+@import "../css/color.css";
 
 #login-form { }
 
@@ -35,13 +13,19 @@
     font-size: 1.2rem;
 }
 
+#login-form__input {
+}
+
+#login-form__btn {
+}
+
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0 , 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-    color: rgba(0,0,0,0.4)
+    color: rgba(0, 0, 0, 0.4)
 }
 
 #login-form input:focus {
@@ -65,4 +49,3 @@
     text-decoration: none;
     font-size: 13px;
 }
-
