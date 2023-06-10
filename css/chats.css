@@ -1,0 +1,11 @@
+@import "color.css";
+
+#topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    margin-top: 20px;
+    height: 40px;
+}
