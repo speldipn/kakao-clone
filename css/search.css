@@ -113,21 +113,15 @@
 
 @keyframes zoom {
     0% {
-        -webkit-transform: scale(1) 2s;
-        -o-transform: scale(1);
-        transform: scale(1);
-        color: rgba(255, 0, 0, 0.5);
+        scale: 1;
+        color: palevioletred;
     }
     50% {
-        -webkit-transform: scale(1.4);
-        -o-transform: scale(1.4);
-        transform: scale(1.4);
-        color: rgba(255, 0, 0, 1);
+        scale: 1.4;
+        color: red;
     }
     100% {
-        -webkit-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1);
-        color: rgba(255, 0, 0, 0.5);
+        scale: 1;
+        color: palevioletred;
     }
 }
