@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08b683b-ff26-4d62-8b77-6e1834a4f047" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/action-bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/chats.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/nav-bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/no-mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screen/chats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screen/more.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screen/search.html" afterDir="false" />
+    <list default="true" id="f08b683b-ff26-4d62-8b77-6e1834a4f047" name="Changes" comment="1. login&#10;2. friends&#10;3. animations">
+      <change afterPath="$PROJECT_DIR$/css/more.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/friends.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screen/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/friends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screen/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chats.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/chats.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nav-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen/chats.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/chats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen/more.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/more.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +82,24 @@
       <workItem from="1686032655423" duration="499000" />
       <workItem from="1686043545023" duration="3056000" />
       <workItem from="1686240496279" duration="1909000" />
-      <workItem from="1686371326343" duration="17205000" />
+      <workItem from="1686371326343" duration="27861000" />
     </task>
+    <task id="LOCAL-00001" summary="1. login&#10;2. friends&#10;3. animations">
+      <created>1686390536932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686390536932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. login&#10;2. friends&#10;3. animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. login&#10;2. friends&#10;3. animations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
