@@ -1,12 +1,5 @@
 @import "../css/color.css";
 
-#body {
-    font-family: sans-serif;
-    background-color: white;
-    font-size: 15px;
-    padding: 0 16px;
-}
-
 .title {
     margin: 50px 0;
     display: flex;

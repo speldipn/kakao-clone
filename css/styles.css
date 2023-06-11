@@ -1,0 +1,17 @@
+/* colors */
+@import "color.css";
+
+/* global */
+@import "home.css";
+
+/* components */
+@import "no-mobile.css";
+@import "action-bar.css";
+@import "nav-bar.css";
+
+#body {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 15px;
+    padding: 0 16px;
+}

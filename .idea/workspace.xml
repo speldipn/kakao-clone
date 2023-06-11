@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08b683b-ff26-4d62-8b77-6e1834a4f047" name="Changes" comment="1. splash screen&#10;2. ::before, ::after sample html">
-      <change afterPath="$PROJECT_DIR$/css/chat-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screen/chat-detail.html" afterDir="false" />
+    <list default="true" id="f08b683b-ff26-4d62-8b77-6e1834a4f047" name="Changes" comment="chat detail done">
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/action-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/action-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nav-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen/chat-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/chat-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/chats.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/chats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/friends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/more.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/more.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/search.html" afterDir="false" />
     </list>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686409044365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chat detail done">
+      <created>1686463548138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686463548138</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. login&#10;2. friends&#10;3. animations" />
     <MESSAGE value="1. chats screen&#10;2. search screen&#10;4. more screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. chats screen&#10;2. search screen&#10;4. more screen" />
+    <MESSAGE value="chat detail done" />
+    <option name="LAST_COMMIT_MESSAGE" value="chat detail done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
