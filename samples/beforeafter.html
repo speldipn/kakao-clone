@@ -1,52 +1,50 @@
 <html>
-<head>
-  <style>
+  <head>
+    <style>
       @font-face {
-          font-family: 'LeferiPoint-WhiteObliqueA';
-          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
-          font-weight: normal;
-          font-style: normal;
+        font-family: "LeferiPoint-WhiteObliqueA";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
       }
 
       body {
-          font-family: LeferiPoint-WhiteObliqueA;
-          font-size: 50px;
-          padding: 30px;
+        font-family: LeferiPoint-WhiteObliqueA;
+        font-size: 50px;
+        padding: 30px;
       }
 
       .text span {
-          display: inline-block;
+        display: inline-block;
       }
-      .text:hover span{
-          font-weight:bold;
+      .text:hover span {
+        font-weight: bold;
       }
       .text:hover span::after {
-          animation: drawline 1s ease;
+        animation: drawline 1s ease;
       }
 
       .text span::after {
-          content: "";
-          display: block;
-          width: 100%;
-          height: 5px;
-          margin:-10px 0 0 0;
-          background: moccasin;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 5px;
+        margin: -10px 0 0 0;
+        background: moccasin;
       }
 
       @keyframes drawline {
-          0% {
-              width: 0
-          }
-          100% {
-              width: 100%;
-          }
-
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 100%;
+        }
       }
-  </style>
-</head>
-<body>
-<div class="text">
-  start<span>NeoNeo</span>done.
-</div>
-</body>
+    </style>
+  </head>
+  <body>
+    <div class="text">start<span>NeoNeo</span>done.</div>
+  </body>
 </html>

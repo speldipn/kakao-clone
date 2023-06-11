@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08b683b-ff26-4d62-8b77-6e1834a4f047" name="Changes" comment="chat detail done">
-      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+    <list default="true" id="f08b683b-ff26-4d62-8b77-6e1834a4f047" name="Changes" comment="cleanup css">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/action-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/action-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chat-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/chat-detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chats.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/chats.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/color.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/friends.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/more.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/more.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nav-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/no-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/no-mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/beforeafter.html" beforeDir="false" afterPath="$PROJECT_DIR$/samples/beforeafter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/chat-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/chat-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/chats.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/chats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screen/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/screen/friends.html" afterDir="false" />
@@ -106,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686463548138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cleanup css">
+      <created>1686470721942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686470721942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +135,8 @@
     <MESSAGE value="1. login&#10;2. friends&#10;3. animations" />
     <MESSAGE value="1. chats screen&#10;2. search screen&#10;4. more screen" />
     <MESSAGE value="chat detail done" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat detail done" />
+    <MESSAGE value="cleanup css" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

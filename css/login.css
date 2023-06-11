@@ -4,13 +4,13 @@
 }
 
 #login-form input {
-    border: 0;
-    outline: 0;
-    display: block;
-    width: 100%;
-    margin: 30px 0;
-    height: 2rem;
-    font-size: 1.2rem;
+  border: 0;
+  outline: 0;
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  height: 2rem;
+  font-size: 1.2rem;
 }
 
 #login-form__input {
@@ -20,32 +20,32 @@
 }
 
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    transition: border-color 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.4)
+  color: rgba(0, 0, 0, 0.4);
 }
 
 #login-form input:focus {
-    border-color: var(--yellow);
+  border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
-    font-size: 1rem;
-    height: 3rem;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: var(--yellow);
-    border-radius: 5px;
+  font-size: 1rem;
+  height: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--yellow);
+  border-radius: 5px;
 }
 
 #login-form a {
-    display: block;
-    width: 100%;
-    color: inherit;
-    text-align: center;
-    text-decoration: none;
-    font-size: 13px;
+  display: block;
+  width: 100%;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
 }

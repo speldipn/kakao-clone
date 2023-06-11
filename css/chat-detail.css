@@ -1,144 +1,144 @@
 #body {
-    background-color: #ABC1D1;
+  background-color: #abc1d1;
 }
 
 #detail__content {
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
 }
 
 #chat_screen {
-    animation: showUp 1s forwards;
+  animation: showUp 1s forwards;
 }
 
 @keyframes showUp {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .content__date__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .date__wrapper {
-    padding: 10px 20px;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .date__text {
-    color: white;
+  color: white;
 }
 
 .your__msg__container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .your__msg__nickname {
-    color: #2e363e;
-    margin-bottom: 5px;
+  color: #2e363e;
+  margin-bottom: 5px;
 }
 
 .your__msg__wrapper {
-    background-color: white;
-    border-radius: 0 10px 10px 10px;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: white;
+  border-radius: 0 10px 10px 10px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .msg__date {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: #2e363e;
-    margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #2e363e;
+  margin: 0 5px;
 }
 
 .content__your__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px 0;
 }
 
 .content__my__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 20px 0;
 }
 
 .my__msg__wrapper {
-    background-color: var(--yellow);
-    border-radius: 10px 0 10px 10px;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--yellow);
+  border-radius: 10px 0 10px 10px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #input__container {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-color: white;
-    width: 100vw;
-    height: 65px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  width: 100vw;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
 }
 
 #input__wrapper {
-    border: 1px solid #aaaaaa;
-    border-radius: 25px;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    width: 80vw;
+  border: 1px solid #aaaaaa;
+  border-radius: 25px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 80vw;
 }
 
 .input {
-    border: 0;
-    width: 60vw;
-    padding-left: 10px;
-    margin: 5px 5px;
-    outline: none;
+  border: 0;
+  width: 60vw;
+  padding-left: 10px;
+  margin: 5px 5px;
+  outline: none;
 }
 
 .input__buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .input__send__wrapper {
-    border-radius: 50%;
-    background-color: var(--yellow);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 15px;
-    margin-left: 5px;
-    margin-right: 3px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 15px;
+  margin-left: 5px;
+  margin-right: 3px;
 }

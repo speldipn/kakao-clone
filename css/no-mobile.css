@@ -1,22 +1,22 @@
 @import "color.css";
 
 #no-mobile {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: var(--yellow);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--yellow);
 }
 
 @media screen and (max-width: 645px) {
-    #no-mobile {
-        visibility: hidden;
-        opacity: 0;
-        /* property duration function delay, <property ...> */
-        transition: visibility 500ms, opacity 500ms linear;
-    }
+  #no-mobile {
+    visibility: hidden;
+    opacity: 0;
+    /* property duration function delay, <property ...> */
+    transition: visibility 500ms, opacity 500ms linear;
+  }
 }

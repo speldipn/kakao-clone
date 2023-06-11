@@ -1,89 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/friends.css" />
+    <script
+      src="https://kit.fontawesome.com/2a9e507b7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Friends</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css"/>
-  <link rel="stylesheet" href="../css/friends.css">
-  <script src="https://kit.fontawesome.com/2a9e507b7d.js" crossorigin="anonymous"></script>
-  <title>Friends</title>
-</head>
-
-<body>
-<div id="action-bar">
-  <div><span>No Service</span> <i class="fa-solid fa-wifi"></i></div>
-  <span>18:43</span>
-  <div><span>98%</span> <i class="fa-solid fa-battery-full"></i> <i class="fa-solid fa-bolt"></i></div>
-</div>
-<div class="header">
-  <h1 class="header__title">Friends</h1>
-  <div class="header__container">
-    <a class="header__item" href="#"> <i class="fa-solid fa-magnifying-glass fa-lg"></i> </a>
-    <a class="header__item" href="#"> <i class="fa-solid fa-music fa-lg"></i> </a>
-    <a class="header__item" href="#"> <i class="fa-solid fa-gear fa-lg"></i> </a>
-  </div>
-</div>
-
-<article>
-  <div id="topContainer">
-    <i class="fa-solid fa-circle-info"></i>
-    <h4 style="font-weight: 500">Friends' Names Display</h4>
-    <i class="fa-solid fa-angle-right fa-xs"></i>
-  </div>
-  <div id="contentContainer">
-    <div id="profile">
-      <img src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
-           alt="neo" style="width: 80px;height:80px;border-radius: 40%">
-      <h1>Neo</h1>
-    </div>
-    <div id="line"></div>
-    <div id="channel">
-      <div id="channel__title--container">
-        <span id="channel__title">Channel</span>
-        <i class="fa-solid fa-chevron-up fa-xs"></i>
+  <body>
+    <div id="action-bar">
+      <div><span>No Service</span> <i class="fa-solid fa-wifi"></i></div>
+      <span>18:43</span>
+      <div>
+        <span>98%</span> <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
       </div>
+    </div>
+    <div class="header">
+      <h1 class="header__title">Friends</h1>
+      <div class="header__container">
+        <a class="header__item" href="#">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </a>
+        <a class="header__item" href="#">
+          <i class="fa-solid fa-music fa-lg"></i>
+        </a>
+        <a class="header__item" href="#">
+          <i class="fa-solid fa-gear fa-lg"></i>
+        </a>
+      </div>
+    </div>
 
-      <div id="channel__item">
-        <div id="channel__item--left">
+    <article>
+      <div id="topContainer">
+        <i class="fa-solid fa-circle-info"></i>
+        <h4 style="font-weight: 500">Friends' Names Display</h4>
+        <i class="fa-solid fa-angle-right fa-xs"></i>
+      </div>
+      <div id="contentContainer">
+        <div id="profile">
           <img
             src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
-            alt="neo" style="width: 60px;height:60px;border-radius: 40%">
-          <span id="channel__item--title">Channel</span>
+            alt="neo"
+            style="width: 80px; height: 80px; border-radius: 40%"
+          />
+          <h1>Neo</h1>
         </div>
-        <div id="channel__item--right">
-          <span id="channel__item--members">2</span>
-          <i class="fa-solid fa-angle-right fa-xs"></i>
+        <div id="line"></div>
+        <div id="channel">
+          <div id="channel__title--container">
+            <span id="channel__title">Channel</span>
+            <i class="fa-solid fa-chevron-up fa-xs"></i>
+          </div>
+
+          <div id="channel__item">
+            <div id="channel__item--left">
+              <img
+                src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
+                alt="neo"
+                style="width: 60px; height: 60px; border-radius: 40%"
+              />
+              <span id="channel__item--title">Channel</span>
+            </div>
+            <div id="channel__item--right">
+              <span id="channel__item--members">2</span>
+              <i class="fa-solid fa-angle-right fa-xs"></i>
+            </div>
+          </div>
         </div>
       </div>
+    </article>
+
+    <nav>
+      <ul class="nav__container">
+        <li class="nav__item">
+          <a class="nav__item--icon" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__item">
+          <span class="nav__notification">1</span>
+          <a class="nav__item--icon" href="chats.html">
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item--icon" href="search.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <span class="nav__more--notification"></span>
+          <a class="nav__item--icon" href="more.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
     </div>
-  </div>
-</article>
-
-<nav>
-  <ul class="nav__container">
-    <li class="nav__item">
-      <a class="nav__item--icon" href="friends.html"> <i class="fa-solid fa-user fa-2x"></i></a>
-    </li>
-    <li class="nav__item">
-      <span class="nav__notification">1</span>
-      <a class="nav__item--icon" href="chats.html"> <i class="fa-solid fa-comment fa-2x"></i> </a>
-    </li>
-    <li class="nav__item"><a class="nav__item--icon" href="search.html">
-      <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-    </a>
-    </li>
-    <li class="nav__item">
-      <span class="nav__more--notification"></span>
-      <a class="nav__item--icon" href="more.html"> <i class="fa-solid fa-ellipsis fa-2x"></i></a>
-    </li>
-  </ul>
-</nav>
-<div id="splash-screen">
-  <i class="fas fa-comment"></i>
-</div>
-<div id="no-mobile"><h1>This page is too big! 😢</h1></div>
-</body>
-
+    <div id="no-mobile"><h1>This page is too big! 😢</h1></div>
+  </body>
 </html>

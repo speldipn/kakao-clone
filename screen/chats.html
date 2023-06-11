@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/chats.css" />
+    <script
+      src="https://kit.fontawesome.com/2a9e507b7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chats</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css"/>
-  <link rel="stylesheet" href="../css/chats.css">
-  <script src="https://kit.fontawesome.com/2a9e507b7d.js" crossorigin="anonymous"></script>
-  <title>Chats</title>
-</head>
-
-<body>
-<div id="action-bar">
-  <div><span>No Service</span> <i class="fa-solid fa-wifi"></i></div>
-  <span>18:43</span>
-  <div><span>98%</span> <i class="fa-solid fa-battery-full"></i> <i class="fa-solid fa-bolt"></i></div>
-</div>
-<div class="header">
-  <h1 class="header__title">Chats</h1>
-  <div class="header__container">
-    <a class="header__item" href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
-    <a class="header__item" href="#"><i class="fa-regular fa-comment-dots fa-lg"></i></a>
-    <a class="header__item" href="#"><i class="fa-solid fa-music fa-lg"></i></a>
-    <a class="header__item" href="#"><i class="fa-solid fa-gear fa-lg"></i></a>
-  </div>
-</div>
-<article id="contentContainer">
-  <a id="chat__item" href="chat-detail.html">
-    <div id="chat__item--left">
-      <img
-        src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
-        alt="neo" style="width: 60px;height:60px;border-radius: 40%">
-      <div id="chat__item__desc">
-        <span id="chat__item--title">Neo</span>
-        <span id="chat__item--subtitle">Please check My kokoa Account Info</span>
+  <body>
+    <div id="action-bar">
+      <div><span>No Service</span> <i class="fa-solid fa-wifi"></i></div>
+      <span>18:43</span>
+      <div>
+        <span>98%</span> <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <div id="chat__item--right">
-      <span id="chat__item--members">23:30</span>
-      <span id="chat__item--notification">1</span>
+    <div class="header">
+      <h1 class="header__title">Chats</h1>
+      <div class="header__container">
+        <a class="header__item" href="#"
+          ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+        ></a>
+        <a class="header__item" href="#"
+          ><i class="fa-regular fa-comment-dots fa-lg"></i
+        ></a>
+        <a class="header__item" href="#"
+          ><i class="fa-solid fa-music fa-lg"></i
+        ></a>
+        <a class="header__item" href="#"
+          ><i class="fa-solid fa-gear fa-lg"></i
+        ></a>
+      </div>
     </div>
-  </a>
-</article>
-<nav>
-  <ul class="nav__container">
-    <li class="nav__item">
-      <a class="nav__item--icon" href="friends.html"> <i class="fa-solid fa-user fa-2x"></i> </a>
-    </li>
-    <li class="nav__item">
-      <span class="nav__notification">1</span>
-      <a class="nav__item--icon" href="chats.html"> <i class="fa-solid fa-comment fa-2x"></i> </a>
-    </li>
-    <li class="nav__item"><a class="nav__item--icon" href="search.html">
-      <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-    </a>
-    </li>
-    <li class="nav__item">
-      <span class="nav__more--notification"></span>
-      <a class="nav__item--icon" href="more.html"> <i class="fa-solid fa-ellipsis fa-2x"></i></a>
-    </li>
-  </ul>
-</nav>
-<div id="no-mobile"><h1>This page is too big! 😢</h1></div>
-</body>
-
+    <article id="contentContainer">
+      <a id="chat__item" href="chat-detail.html">
+        <div id="chat__item--left">
+          <img
+            src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
+            alt="neo"
+            style="width: 60px; height: 60px; border-radius: 40%"
+          />
+          <div id="chat__item__desc">
+            <span id="chat__item--title">Neo</span>
+            <span id="chat__item--subtitle"
+              >Please check My kokoa Account Info</span
+            >
+          </div>
+        </div>
+        <div id="chat__item--right">
+          <span id="chat__item--members">23:30</span>
+          <span id="chat__item--notification">1</span>
+        </div>
+      </a>
+    </article>
+    <nav>
+      <ul class="nav__container">
+        <li class="nav__item">
+          <a class="nav__item--icon" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <span class="nav__notification">1</span>
+          <a class="nav__item--icon" href="chats.html">
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item--icon" href="search.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <span class="nav__more--notification"></span>
+          <a class="nav__item--icon" href="more.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile"><h1>This page is too big! 😢</h1></div>
+  </body>
 </html>

@@ -1,127 +1,127 @@
 #article {
-    padding: 0 16px;
+  padding: 0 16px;
 }
 
 .topMenuContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .topMenuWrapper {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .topMenuItem {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .topMenuItem i {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .line {
-    background-color: #cccccc;
-    height: 1px;
-    width: 100%;
-    margin-top: 24px;
+  background-color: #cccccc;
+  height: 1px;
+  width: 100%;
+  margin-top: 24px;
 }
 
 #recommend__title {
-    color: #7f7f7f;
-    margin-top: 20px;
+  color: #7f7f7f;
+  margin-top: 20px;
 }
 
 #recommend__content {
-    color: #7f7f7f;
-    margin: 100px 0;
-    text-align: center;
+  color: #7f7f7f;
+  margin: 100px 0;
+  text-align: center;
 }
 
 .openchat {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .goToOpenchat {
-    color: #7f7f7f;
+  color: #7f7f7f;
 }
 
 .openchat__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .openchat__info--tag {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .openchat__info--tag span {
-    margin: 3px 0;
+  margin: 3px 0;
 }
 
 .tag__members {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .goToOpenchatContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .openchat__img {
-    position: relative;
+  position: relative;
 }
 
 .heart__container {
-    position: absolute;
-    border-radius: 30px;
-    padding: 10px 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    bottom: 10px;
-    right: 10px;
+  position: absolute;
+  border-radius: 30px;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 10px;
+  right: 10px;
 }
 
 .heart__container:hover #heart__img {
-    animation: zoom 1s infinite;
+  animation: zoom 1s infinite;
 }
 
 .heart__container span {
-    color: white;
+  color: white;
 }
 
 #heart__img {
-    color: white;
+  color: white;
 }
 
 @keyframes zoom {
-    0% {
-        scale: 1;
-        color: palevioletred;
-    }
-    50% {
-        scale: 1.4;
-        color: red;
-    }
-    100% {
-        scale: 1;
-        color: palevioletred;
-    }
+  0% {
+    scale: 1;
+    color: palevioletred;
+  }
+  50% {
+    scale: 1.4;
+    color: red;
+  }
+  100% {
+    scale: 1;
+    color: palevioletred;
+  }
 }

@@ -1,70 +1,70 @@
 @import "color.css";
 
 #topContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
-    margin-top: 20px;
-    height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  margin-top: 20px;
+  height: 40px;
 }
 
 #contentContainer {
-    padding: 0 16px;
+  padding: 0 16px;
 }
 
 #chat__item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-top: 30px;
 }
 
 #chat__item--left {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #chat__item__desc {
-    display: flex;
-    margin-left: 20px;
-    flex-direction: column;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
 }
 
 #chat__item--title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #chat__item--subtitle {
-    font-size: 16px;
-    color: #7f7f7f;
+  font-size: 16px;
+  color: #7f7f7f;
 }
 
 #chat__item--right {
-    display: flex;
-    margin-left: 20px;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 #chat__item--members {
-    margin-right: 3px;
-    margin-bottom: 10px;
+  margin-right: 3px;
+  margin-bottom: 10px;
 }
 
 #chat__item--notification {
-    width: 25px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: tomato;
-    border-radius: 50%;
-    color: white;
-    font-weight: 600;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
 }
