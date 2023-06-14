@@ -27,3 +27,16 @@
   color: black;
   margin-right: 20px;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.header__item .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
