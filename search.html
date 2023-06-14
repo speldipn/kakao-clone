@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/more.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/search.css" />
     <script
       src="https://kit.fontawesome.com/2a9e507b7d.js"
       crossorigin="anonymous"
     ></script>
-    <title>More</title>
+    <title>Search</title>
   </head>
 
   <body>
@@ -23,13 +23,10 @@
       </div>
     </div>
     <div class="header">
-      <h1 class="header__title">More</h1>
+      <h1 class="header__title">Search</h1>
       <div class="header__container">
         <a class="header__item" href="#">
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-        </a>
-        <a class="header__item" href="#">
-          <i class="fa-solid fa-music fa-lg"></i>
         </a>
         <a class="header__item" href="#">
           <i class="fa-solid fa-gear fa-lg"></i>
@@ -38,74 +35,91 @@
     </div>
 
     <article id="article">
-      <a id="chat__item" href="#">
-        <div id="chat__item--left">
-          <img
-            src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
-            alt="neo"
-            style="width: 60px; height: 60px; border-radius: 40%"
-          />
-          <div id="chat__item__desc">
-            <span id="chat__item--title">Neo</span>
-            <span id="chat__item--subtitle">+ 787 666 999</span>
-          </div>
-        </div>
-        <div id="chat__item--right">
-          <i class="fa-regular fa-message fa-2xl" style="color: #7f7f7f"></i>
-        </div>
-      </a>
-
       <div class="topMenuContainer">
         <a href="#" class="topMenuWrapper">
           <div class="topMenuItem">
-            <i class="fa-solid fa-calendar fa-2xl"></i>
-            <span>Calendar</span>
+            <i class="fa-solid fa-qrcode fa-2xl"></i>
+            <span>QR Code</span>
           </div>
         </a>
         <a href="#" class="topMenuWrapper">
           <div class="topMenuItem">
-            <i class="fa-regular fa-face-smile-wink fa-2xl"></i>
-            <span>Emoticons</span>
+            <i class="fa-regular fa-address-book fa-2xl"></i>
+            <span>Add by Contacts</span>
           </div>
         </a>
         <a href="#" class="topMenuWrapper">
           <div class="topMenuItem">
-            <i class="fa-solid fa-paint-roller fa-2xl"></i>
-            <span>Themes</span>
+            <i class="fa-solid fa-fingerprint fa-2xl"></i>
+            <span>Add by ID</span>
           </div>
         </a>
         <a href="#" class="topMenuWrapper">
           <div class="topMenuItem">
-            <i class="fa-regular fa-file-lines fa-2xl"></i>
-            <span>Account</span>
+            <i class="fa-regular fa-envelope fa-2xl"></i>
+            <span>Invite</span>
           </div>
         </a>
       </div>
       <div class="line"></div>
+      <h5 id="recommend__title">Recommended Friends</h5>
+      <h3 id="recommend__content">You have no recommended friends.</h3>
+      <div class="line"></div>
+
       <div>
-        <span class="kakaostory__title">Suggestions</span>
-        <div class="kakaostory__container">
-          <div class="kakaostory__item">
-            <div class="quote__wrapper">
-              <i
-                class="fa-solid fa-quote-right fa-2xl"
-                style="color: white"
-              ></i>
+        <div class="openchat">
+          <div class="openchat__info">
+            <span>Open Chat</span>
+            <div class="openchat__info--tag">
+              <span style="color: black">#BTS</span>
+              <span style="color: #7f7f7f">#BTS#ARMY#FRIENDS</span>
+              <div class="tag__members">
+                <img
+                  src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
+                  alt="neo"
+                  style="
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                  "
+                />
+                <span style="color: #bbbbbb; margin-right: 5px"
+                  >802 members |</span
+                >
+                <span style="color: #ffaaaa">Active</span>
+              </div>
             </div>
-            <span>Kokoa Story</span>
           </div>
-          <div class="kakaostory__item">
-            <div class="quote__wrapper">
+          <div class="goToOpenchatContainer">
+            <div>
+              <span class="goToOpenchat">Go to Openchat Home</span>
               <i
-                class="fa-solid fa-quote-right fa-2xl"
-                style="color: white"
+                class="fa-solid fa-angle-right fa-xs"
+                style="color: #7f7f7f"
               ></i>
             </div>
-            <span>Kokoa Story</span>
+            <div class="openchat__img">
+              <img
+                src="https://avatars.githubusercontent.com/u/34430357?s=400&u=0e68ba31c4217deaad0d2a2a07584e7b666780cf&v=4"
+                alt="neo"
+                style="
+                  width: 130px;
+                  height: 130px;
+                  border-radius: 16px;
+                  margin-top: 20px;
+                "
+              />
+              <div class="heart__container">
+                <i id="heart__img" class="fa-solid fa-heart"></i>
+                <span>602</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </article>
+
     <nav>
       <ul class="nav__container">
         <li class="nav__item">
