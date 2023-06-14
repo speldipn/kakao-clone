@@ -9,10 +9,6 @@
       src="https://kit.fontawesome.com/2a9e507b7d.js"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript">
-      var hw = document.getElementById("widthText");
-      hw.innerText = window.innerWidth;
-    </script>
   </head>
   <body>
     <div id="action-bar">
@@ -54,5 +50,10 @@
       <h1>This page is too big! 😢</h1>
       <h1 id="widthText"></h1>
     </div>
+    <script type="text/javascript">
+      var hw = document.getElementById("widthText");
+      hw.innerHTML = window.innerWidth + "";
+      console.log(window);
+    </script>
   </body>
 </html>
